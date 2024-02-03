@@ -1,6 +1,8 @@
 import { put } from "@vercel/blob";
 import { NextResponse } from "next/server";
 
+// Just add some note here
+
 export const runtime = "edge";
 
 export async function POST(req: Request) {
